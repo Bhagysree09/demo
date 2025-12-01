@@ -1,9 +1,7 @@
 import { motion } from 'motion/react';
-import { CheckCircle2, MapPin, FileText, Shield, Phone, Mail, Clock, DollarSign, Users, Building } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { CheckCircle2, FileText, Phone, Mail, DollarSign, Users, Building } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
-import { ImageWithFallback } from '../../figma/ImageWithFallback';
 import { fadeInUp, staggerContainer, staggerItem } from '../../utils/animations';
 import planComparisonImage from "../../../assets/planComparison.jpg"
 

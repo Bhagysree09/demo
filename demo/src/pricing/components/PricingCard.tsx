@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Check, Star, ArrowRight, Sparkles } from 'lucide-react';
-import { Button } from './ui/button';
+import { Button } from '../components/ui/button';
 
 interface PricingCardProps {
   id: string;

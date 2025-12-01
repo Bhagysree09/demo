@@ -31,13 +31,15 @@ import { OtherBusinessServicesPage } from './components/pages/services/OtherBusi
 import { PrivacyPolicyPage } from './components/pages/PrivacyPolicyPage';
 import { TermsConditionsPage } from './components/pages/TermsConditionsPage';
 import PricingPage from './pricing/components/PricingPage';
-
+import PlanDetailPage from './pricing/components/PlanDetailPage';
+import ITRPromoDialog from './components/ITRPromoDialog';
 function AppContent() {
   const location = useLocation();
   const hideNavAndFooter = ['/login', '/signup'].includes(location.pathname);
 
   return (
     <div className="min-h-screen flex flex-col">
+      <ITRPromoDialog />
       {!hideNavAndFooter && <Navigation />}
       <main className="flex-1">
         <Routes>
@@ -49,7 +51,8 @@ function AppContent() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
-          
+       
+                  <Route path="/plan/:planId" element={<PlanDetailPage />} />
           {/* Individual Services */}
           <Route path="/tax-filing" element={<TaxFilingPage />} />
           <Route path="/tax-filing/salaried" element={<SalariedPage />} />

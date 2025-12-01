@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import PricingCard from './PricingCard';
 import { Home, TrendingUp, Globe, Briefcase, Users, Building2 } from 'lucide-react';
+import '../styles/pricing-tokens.css';
 
 const individualsPlans = [
   {

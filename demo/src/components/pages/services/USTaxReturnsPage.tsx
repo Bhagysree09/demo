@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { FileText, Globe, DollarSign, CheckCircle2, Clock, Shield, Users, TrendingUp } from 'lucide-react';
+import { FileText, Globe, DollarSign, CheckCircle2, Shield } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';

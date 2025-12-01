@@ -3,7 +3,7 @@ import { Users, TrendingUp, Globe, BarChart3, CheckCircle2 } from 'lucide-react'
 import { motion } from 'motion/react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
-import { fadeInUp } from '../../utils/animations';
+
 
 export function IncomeTaxPage() {
   const whoIsThisFor = [

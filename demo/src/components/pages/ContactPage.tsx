@@ -89,7 +89,7 @@ export function ContactPage() {
             transition={{
               duration: 8,
               repeat: Infinity,
-              ease: "easeInOut"
+              ease: [0.42, 0, 0.58, 1] as any
             }}
           />
           <motion.div 
@@ -101,7 +101,7 @@ export function ContactPage() {
             transition={{
               duration: 9,
               repeat: Infinity,
-              ease: "easeInOut"
+              ease: [0.42, 0, 0.58, 1] as any
             }}
           />
         </div>

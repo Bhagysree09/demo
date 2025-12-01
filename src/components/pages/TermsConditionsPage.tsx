@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Scale, FileCheck, UserCheck, CreditCard, Shield, AlertCircle, Mail, Phone } from 'lucide-react';
-import { Card, CardContent } from '../ui/card';
+import { Card, CardContent } from "../ui/card";        // relative
+
 import { fadeInUp } from '../utils/animations';
 
 export function TermsConditionsPage() {

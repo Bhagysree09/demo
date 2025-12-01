@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Shield, Target, Clock, HeartHandshake, Users, Award, TrendingUp, CheckCircle2, Lightbulb, Globe, Heart, Zap, ArrowRight } from 'lucide-react';
+import { Shield, Target, Clock, HeartHandshake, ArrowRight } from 'lucide-react';
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
 import { Button } from '../ui/button';
@@ -11,9 +11,6 @@ import { fadeInUp, fadeInLeft, fadeInRight, staggerContainer, staggerItem } from
 export function AboutPage() {
   const valuesRef = useRef(null);
   const valuesInView = useInView(valuesRef, { once: true, margin: "-100px" });
-
-  const teamRef = useRef(null);
-  const teamInView = useInView(teamRef, { once: true, margin: "-100px" });
 
   return (
     <div>

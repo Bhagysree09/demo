@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { TrendingUp, PiggyBank, Shield, Heart, Home, GraduationCap, CheckCircle2, Target } from 'lucide-react';
+import { PiggyBank, Shield, Heart, Home, GraduationCap, CheckCircle2, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';

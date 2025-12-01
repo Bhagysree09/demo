@@ -3,7 +3,7 @@ import { Store, ShoppingBag, Truck, Globe, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
-import { fadeInUp } from '../../utils/animations';
+
 
 export function GSTRegistrationPage() {
   const whoNeedsGST = [

@@ -63,15 +63,16 @@ export function Navigation() {
   }
 
   return (
-    <nav className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<nav className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm py-5">
+  <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-10">
+
         
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between ">
 
           {/* LEFT - Logo + Dropdowns */}
           <div className="flex items-center gap-6">
             <Link to="/">
-              <img src={logoImage} alt="TaxBreeze" className="h-12" />
+              <img src={logoImage} alt="TaxBreeze" className="h-26" />
             </Link>
 
             {/* Dropdown Menus */}
@@ -129,7 +130,7 @@ export function Navigation() {
                 onChange={(e) => setQuery(e.target.value)}
                 type="text"
                 placeholder="Search services for GST, ITR, company registration..."
-                className="w-full h-10 pl-11 pr-4 border rounded-full border-gray-300 bg-white shadow-sm focus:ring-2 focus:ring-[#6A23F5] focus:border-[#6A23F5] outline-none text-sm placeholder-gray-500"
+                className="w-full h-10 pl-10 pr-4 border rounded-full border-gray-300 bg-white shadow-sm focus:ring-2 focus:ring-[#6A23F5] focus:border-[#6A23F5] outline-none text-sm placeholder-gray-500"
               />
               <button aria-label="Search" type="submit">
                 <svg
@@ -165,7 +166,7 @@ export function Navigation() {
               href="https://wa.me/9740564642"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2.5 bg-[#0CAB63] text-white rounded-xl text-sm font-medium hover:bg-[#0a9052]"
+              className="px-7 py-2.5 bg-[#0CAB63] text-white rounded-xl text-sm font-medium hover:bg-[#0a9052]"
             >
               WhatsApp Now
             </a>

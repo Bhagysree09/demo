@@ -1,6 +1,8 @@
 import { motion } from 'motion/react';
 import { Shield, Lock, Eye, UserCheck, FileText, Mail, Phone } from 'lucide-react';
-import { Card, CardContent } from '../ui/card';
+import { Card, CardContent } from "../ui/card";        // relative
+
+
 import { fadeInUp } from '../utils/animations';
 
 export function PrivacyPolicyPage() {

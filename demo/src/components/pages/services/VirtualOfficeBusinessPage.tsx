@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { CheckCircle2, MapPin, FileText, Shield, Phone, Mail, Clock, DollarSign, Users, Building, Briefcase } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 import { fadeInUp, staggerContainer, staggerItem } from '../../utils/animations';

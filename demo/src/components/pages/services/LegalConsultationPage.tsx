@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Scale, FileText, Users, Building, ShieldCheck, Briefcase, CheckCircle2, Award } from 'lucide-react';
+import { FileText, Users, Building, ShieldCheck, Briefcase, CheckCircle2, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';

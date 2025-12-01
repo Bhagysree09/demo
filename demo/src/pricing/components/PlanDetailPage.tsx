@@ -1,11 +1,12 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Check, Star, Shield, HeadphonesIcon, FileCheck, TrendingUp } from 'lucide-react';
-import { Button } from './ui/button';
+import { Button } from '../components/ui/button';
+import '../styles/pricing-tokens.css';
 
 const planDetails = {
   'salary-house-rent': {
     title: 'Salary or House Rent Income',
-    subtitle: 'Perfect for Salaried Professionals',
+    subtitle: 'Perfect for Salaried Professionals',                                      
     originalPrice: 4999,
     price: 1499,
     discount: 'Save 60%',
