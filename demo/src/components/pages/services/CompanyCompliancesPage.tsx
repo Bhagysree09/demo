@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { FileCheck, Calendar, ClipboardCheck, FileText, AlertCircle, Shield, CheckCircle2, Building } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../ui/button';
@@ -104,3 +104,6 @@ export function CompanyCompliancesPage() {
     </div>
   );
 }
+
+
+

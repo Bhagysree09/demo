@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { CheckCircle2, MapPin, FileText, Shield, Phone, Mail, Clock, DollarSign, Users, Building, Briefcase } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -66,14 +66,14 @@ export function VirtualOfficeBusinessPage() {
           >
             <h1 className="text-white mb-6 text-4xl lg:text-5xl">Virtual Place for Business Registration</h1>
             <p className="text-white/90 text-lg lg:text-xl mb-8 max-w-3xl mx-auto">
-              Your virtual HQ for company startup���provides a prestigious business address, legal documents (NOC, lease, utility bills), and full compliance for ROC (Company) and GST registration.
+              Your virtual HQ for company startupï¿½ï¿½ï¿½provides a prestigious business address, legal documents (NOC, lease, utility bills), and full compliance for ROC (Company) and GST registration.
             </p>
             <div className="inline-block bg-white/20 backdrop-blur-sm rounded-2xl px-8 py-4">
               <div className="flex items-center gap-3">
                 <DollarSign className="w-8 h-8" />
                 <div className="text-left">
                   <div className="text-sm text-white/80">Starting From</div>
-                  <div className="text-3xl">₹18,000</div>
+                  <div className="text-3xl">â‚¹18,000</div>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@ export function VirtualOfficeBusinessPage() {
           >
             <h2 className="text-[#1A1A1A] mb-4">Plan Summary</h2>
             <p className="text-[#6F6F6F] text-lg max-w-3xl mx-auto">
-              Your virtual HQ for company startup—provides a prestigious business address, legal documents (NOC, lease, utility bills), and full compliance for ROC (Company) and GST registration. Ideal for new company/APOB. Includes mail management.
+              Your virtual HQ for company startupâ€”provides a prestigious business address, legal documents (NOC, lease, utility bills), and full compliance for ROC (Company) and GST registration. Ideal for new company/APOB. Includes mail management.
             </p>
           </motion.div>
 
@@ -352,3 +352,6 @@ export function VirtualOfficeBusinessPage() {
     </div>
   );
 }
+
+
+

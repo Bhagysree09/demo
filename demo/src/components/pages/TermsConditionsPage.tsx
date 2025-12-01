@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { Scale, FileCheck, UserCheck, CreditCard, Shield, AlertCircle, Mail, Phone } from 'lucide-react';
 import { Card, CardContent } from '../ui/card';
 import { fadeInUp } from '../utils/animations';
@@ -88,9 +88,9 @@ export function TermsConditionsPage() {
                 <CardContent className="p-8">
                   <h2 className="text-[#1A1A1A] mb-4">4. User Responsibilities</h2>
                   <ul className="space-y-2 text-[#6F6F6F]">
-                    <li>• Provide accurate, current, and complete information during registration and while using services.</li>
-                    <li>• Maintain confidentiality of login credentials and notify TaxBreeze immediately of any unauthorized use.</li>
-                    <li>• Comply with all applicable laws and regulations while using TaxBreeze.</li>
+                    <li>â€¢ Provide accurate, current, and complete information during registration and while using services.</li>
+                    <li>â€¢ Maintain confidentiality of login credentials and notify TaxBreeze immediately of any unauthorized use.</li>
+                    <li>â€¢ Comply with all applicable laws and regulations while using TaxBreeze.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -101,10 +101,10 @@ export function TermsConditionsPage() {
                 <CardContent className="p-8">
                   <h2 className="text-[#1A1A1A] mb-4">5. Service Process and Limitations</h2>
                   <ul className="space-y-2 text-[#6F6F6F]">
-                    <li>• TaxBreeze facilitates preparation and filing of tax returns based on information provided by you.</li>
-                    <li>• We do not offer legal or financial advice beyond the scope of tax compliance and filing services.</li>
-                    <li>• TaxBreeze is not responsible for errors caused by incorrect or incomplete information supplied by you.</li>
-                    <li>• Filing timelines depend on the government portal processing and acceptance.</li>
+                    <li>â€¢ TaxBreeze facilitates preparation and filing of tax returns based on information provided by you.</li>
+                    <li>â€¢ We do not offer legal or financial advice beyond the scope of tax compliance and filing services.</li>
+                    <li>â€¢ TaxBreeze is not responsible for errors caused by incorrect or incomplete information supplied by you.</li>
+                    <li>â€¢ Filing timelines depend on the government portal processing and acceptance.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -120,9 +120,9 @@ export function TermsConditionsPage() {
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">6. Payment Terms</h2>
                       <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• All fees are payable as per the pricing detailed on the website or during service signup.</li>
-                        <li>• Payments must be made through the authorized payment gateways provided by TaxBreeze.</li>
-                        <li>• Refunds, if any, are subject to the specific refund policy available on the relevant service page.</li>
+                        <li>â€¢ All fees are payable as per the pricing detailed on the website or during service signup.</li>
+                        <li>â€¢ Payments must be made through the authorized payment gateways provided by TaxBreeze.</li>
+                        <li>â€¢ Refunds, if any, are subject to the specific refund policy available on the relevant service page.</li>
                       </ul>
                     </div>
                   </div>
@@ -135,8 +135,8 @@ export function TermsConditionsPage() {
                 <CardContent className="p-8">
                   <h2 className="text-[#1A1A1A] mb-4">7. Intellectual Property Rights</h2>
                   <ul className="space-y-2 text-[#6F6F6F]">
-                    <li>• All content on TaxBreeze, including text, logos, images, software, and trademarks, are owned or licensed by TaxBreeze.</li>
-                    <li>• Users are prohibited from copying, distributing, or using TaxBreeze's intellectual property without explicit permission.</li>
+                    <li>â€¢ All content on TaxBreeze, including text, logos, images, software, and trademarks, are owned or licensed by TaxBreeze.</li>
+                    <li>â€¢ Users are prohibited from copying, distributing, or using TaxBreeze's intellectual property without explicit permission.</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -152,8 +152,8 @@ export function TermsConditionsPage() {
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">8. Privacy and Data Protection</h2>
                       <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• Your personal data will be processed in accordance with our Privacy Policy.</li>
-                        <li>• TaxBreeze is committed to protecting your data and maintaining confidentiality.</li>
+                        <li>â€¢ Your personal data will be processed in accordance with our Privacy Policy.</li>
+                        <li>â€¢ TaxBreeze is committed to protecting your data and maintaining confidentiality.</li>
                       </ul>
                     </div>
                   </div>
@@ -171,8 +171,8 @@ export function TermsConditionsPage() {
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">9. Limitation of Liability</h2>
                       <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• TaxBreeze shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services.</li>
-                        <li>• Our total liability shall not exceed the fees paid by you for the specific service.</li>
+                        <li>â€¢ TaxBreeze shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of our services.</li>
+                        <li>â€¢ Our total liability shall not exceed the fees paid by you for the specific service.</li>
                       </ul>
                     </div>
                   </div>
@@ -262,3 +262,6 @@ export function TermsConditionsPage() {
     </div>
   );
 }
+
+
+

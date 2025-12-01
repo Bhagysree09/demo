@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { CheckCircle2, FileText, Phone, Mail, DollarSign, Users, Building } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -57,14 +57,14 @@ export function VirtualOfficeGSTPage() {
           >
             <h1 className="text-white mb-6 text-4xl lg:text-5xl">Virtual Place for GST Registration</h1>
             <p className="text-white/90 text-lg lg:text-xl mb-8 max-w-3xl mx-auto">
-              A complete virtual office solution tailored for GST needs—get a premium business address, official documentation, and seamless virtual KYC support.
+              A complete virtual office solution tailored for GST needsâ€”get a premium business address, official documentation, and seamless virtual KYC support.
             </p>
             <div className="inline-block bg-white/20 backdrop-blur-sm rounded-2xl px-8 py-4">
               <div className="flex items-center gap-3">
                 <DollarSign className="w-8 h-8" />
                 <div className="text-left">
                   <div className="text-sm text-white/80">Starting From</div>
-                  <div className="text-3xl">₹15,000</div>
+                  <div className="text-3xl">â‚¹15,000</div>
                 </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ export function VirtualOfficeGSTPage() {
           >
             <h2 className="text-[#1A1A1A] mb-4">Plan Summary</h2>
             <p className="text-[#6F6F6F] text-lg max-w-3xl mx-auto">
-              A complete virtual office solution tailored for GST needs—get a premium business address, official documentation (NOC, lease/utility bills), and seamless virtual KYC support. Use this address to register GST and as Additional Place of Business (APOB), with optional mail and call services.
+              A complete virtual office solution tailored for GST needsâ€”get a premium business address, official documentation (NOC, lease/utility bills), and seamless virtual KYC support. Use this address to register GST and as Additional Place of Business (APOB), with optional mail and call services.
             </p>
           </motion.div>
 
@@ -326,3 +326,6 @@ export function VirtualOfficeGSTPage() {
     </div>
   );
 }
+
+
+

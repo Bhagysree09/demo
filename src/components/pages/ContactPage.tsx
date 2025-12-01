@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { MessageCircle, Mail, Phone, MapPin, Clock, Send } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Button } from '../ui/button';
@@ -109,7 +109,7 @@ export function ContactPage() {
             transition={{ duration: 0.6 }}
             className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm"
           >
-            📞 Available 24/7 for Your Queries
+            ðŸ“ž Available 24/7 for Your Queries
           </motion.div>
           
           <motion.h1 
@@ -455,3 +455,5 @@ export function ContactPage() {
     </div>
   );
 }
+
+

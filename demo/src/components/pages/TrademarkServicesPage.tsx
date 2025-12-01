@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { ShieldCheck, AlertCircle, ArrowRight } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
@@ -31,7 +31,7 @@ export function TrademarkServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm">
-              ™ Trademark Services
+              â„¢ Trademark Services
             </div>
             <h1 className="text-white mb-6 text-4xl lg:text-5xl">Protect Your Brand Identity</h1>
             <p className="text-white/90 text-lg lg:text-xl mb-8">
@@ -91,7 +91,7 @@ export function TrademarkServicesPage() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Legal Protection</h3>
@@ -100,7 +100,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Prevent Infringement</h3>
@@ -109,7 +109,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Business Asset</h3>
@@ -118,7 +118,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Build Trust</h3>
@@ -127,7 +127,7 @@ export function TrademarkServicesPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">10 Years Protection</h3>
@@ -166,3 +166,6 @@ export function TrademarkServicesPage() {
     </div>
   );
 }
+
+
+

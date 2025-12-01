@@ -1,4 +1,4 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+﻿import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useState, useEffect, useRef } from "react";
 import logoImage from "../assets/client.jpg";
@@ -254,3 +254,6 @@ export function Navigation() {
     </nav>
   );
 }
+
+
+

@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { Mail, Phone, MessageCircle, MapPin, Facebook, Twitter, Linkedin, Instagram, Youtube, ArrowRight } from 'lucide-react';
+﻿import { Link } from 'react-router-dom';
+import { Mail, Phone, MessageCircle, MapPin, Facebook, Linkedin, Instagram,  ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
 import logoImage from '../assets/logo.png';
 
@@ -233,3 +233,5 @@ export function Footer() {
     </footer>
   );
 }
+
+

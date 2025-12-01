@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { Check, Star, Shield, Clock, Users, ArrowRight, Phone, Mail } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -61,7 +61,7 @@ export function SalaryHouseRentPricingPage() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="text-6xl mb-6">🏠</div>
+            <div className="text-6xl mb-6">ðŸ </div>
             <h1 className="text-5xl md:text-6xl mb-6">
               Salary or House Rent Income Tax Filing
             </h1>
@@ -78,8 +78,8 @@ export function SalaryHouseRentPricingPage() {
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <div className="text-center">
-                <p className="text-white/80 line-through text-xl">₹4,599</p>
-                <p className="text-5xl">₹1,499</p>
+                <p className="text-white/80 line-through text-xl">â‚¹4,599</p>
+                <p className="text-5xl">â‚¹1,499</p>
                 <p className="text-green-300 mt-2">Save 60%</p>
               </div>
             </div>
@@ -221,8 +221,8 @@ export function SalaryHouseRentPricingPage() {
               <Card className="border-0 shadow-2xl">
                 <CardContent className="p-8">
                   <div className="text-center mb-6">
-                    <p className="text-gray-500 line-through text-xl mb-2">₹4,599</p>
-                    <p className="text-5xl text-[#1A1A1A] mb-2">₹1,499</p>
+                    <p className="text-gray-500 line-through text-xl mb-2">â‚¹4,599</p>
+                    <p className="text-5xl text-[#1A1A1A] mb-2">â‚¹1,499</p>
                     <p className="text-green-600">Save 60% Limited Time Offer</p>
                   </div>
 
@@ -263,9 +263,9 @@ export function SalaryHouseRentPricingPage() {
 
                   <div className="mt-6 p-4 bg-green-50 rounded-xl">
                     <p className="text-sm text-center text-gray-700">
-                      ✓ 100% Secure & Confidential<br />
-                      ✓ Money Back Guarantee<br />
-                      ✓ Expert CA Support
+                      âœ“ 100% Secure & Confidential<br />
+                      âœ“ Money Back Guarantee<br />
+                      âœ“ Expert CA Support
                     </p>
                   </div>
                 </CardContent>
@@ -318,3 +318,5 @@ export function SalaryHouseRentPricingPage() {
     </div>
   );
 }
+
+

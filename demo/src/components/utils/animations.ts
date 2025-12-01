@@ -1,4 +1,4 @@
-// Animation variants for Framer Motion
+﻿// Animation variants for Framer Motion
 
 export const fadeIn = {
   hidden: { opacity: 0 },
@@ -117,3 +117,6 @@ export const expandWidth = {
     transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] as any }
   }
 };
+
+
+

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Mail, Lock, Eye, EyeOff, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -243,10 +243,13 @@ export function LoginPage() {
           transition={{ delay: 1.1 }}
         >
           <Link to="/" className="text-white hover:underline">
-            ← Back to Home
+            â† Back to Home
           </Link>
         </motion.div>
       </div>
     </div>
   );
 }
+
+
+

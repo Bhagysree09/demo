@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { Award, CheckCircle2, ArrowRight } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -37,7 +37,7 @@ export function ESOPPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm">
-                🏆 ESOP/RSU Filing
+                ðŸ† ESOP/RSU Filing
               </div>
               <h1 className="text-white mb-6 text-4xl lg:text-5xl">Tax Filing for ESOP & RSU Income</h1>
               <p className="text-white/90 text-lg mb-8">
@@ -192,7 +192,7 @@ export function ESOPPage() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 bg-[#E9D9FF]/30 rounded-xl">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">ESOP Tax Specialists</h3>
@@ -201,7 +201,7 @@ export function ESOPPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-[#E9D9FF]/30 rounded-xl">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Accurate Calculations</h3>
@@ -210,7 +210,7 @@ export function ESOPPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-[#E9D9FF]/30 rounded-xl">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Foreign Tax Credit</h3>
@@ -219,7 +219,7 @@ export function ESOPPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-[#E9D9FF]/30 rounded-xl">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Compliance Assurance</h3>
@@ -249,3 +249,6 @@ export function ESOPPage() {
     </div>
   );
 }
+
+
+

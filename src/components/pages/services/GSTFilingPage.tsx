@@ -1,9 +1,8 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { FileText, Calculator, CheckCircle, AlertTriangle } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
-import { fadeInUp } from '../../utils/animations';
 
 export function GSTFilingPage() {
   const returns = [
@@ -88,28 +87,28 @@ export function GSTFilingPage() {
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Avoid late fees and penalties (₹200 per day for GSTR-3B)
+                  <span className="text-[#6A23F5]">âœ“</span> Avoid late fees and penalties (â‚¹200 per day for GSTR-3B)
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Maintain clean compliance record
+                  <span className="text-[#6A23F5]">âœ“</span> Maintain clean compliance record
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Ensure your customers can claim input tax credit
+                  <span className="text-[#6A23F5]">âœ“</span> Ensure your customers can claim input tax credit
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF]">
               <CardContent className="p-6">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Keep your business running smoothly without GST notices
+                  <span className="text-[#6A23F5]">âœ“</span> Keep your business running smoothly without GST notices
                 </p>
               </CardContent>
             </Card>
@@ -134,3 +133,5 @@ export function GSTFilingPage() {
     </div>
   );
 }
+
+

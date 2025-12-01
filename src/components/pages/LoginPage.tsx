@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Mail, Lock, Eye, EyeOff, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -53,10 +53,10 @@ export function LoginPage() {
             
             <div className="space-y-4">
               {[
-                '✓ Expert CA Assistance',
-                '✓ Quick Processing',
-                '✓ Secure & Confidential',
-                '✓ 100% Satisfaction Guaranteed'
+                'âœ“ Expert CA Assistance',
+                'âœ“ Quick Processing',
+                'âœ“ Secure & Confidential',
+                'âœ“ 100% Satisfaction Guaranteed'
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -66,7 +66,7 @@ export function LoginPage() {
                   className="flex items-center gap-3 text-lg"
                 >
                   <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
-                    <span>✓</span>
+                    <span>âœ“</span>
                   </div>
                   <span>{item}</span>
                 </motion.div>
@@ -246,7 +246,7 @@ export function LoginPage() {
             transition={{ delay: 1 }}
           >
             <Link to="/" className="text-gray-600 hover:text-[#6A23F5] text-sm">
-              ← Back to Home
+              â† Back to Home
             </Link>
           </motion.div>
         </motion.div>
@@ -254,3 +254,5 @@ export function LoginPage() {
     </div>
   );
 }
+
+

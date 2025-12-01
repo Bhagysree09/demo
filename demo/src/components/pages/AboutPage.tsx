@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { Shield, Target, Clock, HeartHandshake, ArrowRight } from 'lucide-react';
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
@@ -69,7 +69,7 @@ export function AboutPage() {
                 What started as a small team of passionate chartered accountants has grown into a trusted platform serving over 5,000 clients across India. Our journey has been driven by innovation, dedication, and an unwavering commitment to client success.
               </p>
               <p className="text-[#6F6F6F]">
-                Today, we combine expert knowledge with cutting-edge technology to deliver seamless compliance solutions. From income tax filing to GST services, company registration to trademark protection – we're here to help you focus on what matters most: growing your business.
+                Today, we combine expert knowledge with cutting-edge technology to deliver seamless compliance solutions. From income tax filing to GST services, company registration to trademark protection â€“ we're here to help you focus on what matters most: growing your business.
               </p>
             </motion.div>
 
@@ -236,7 +236,7 @@ export function AboutPage() {
               { icon: <Shield className="w-10 h-10" />, title: 'Integrity', description: 'Your financial data is secure and confidential.' },
               { icon: <Target className="w-10 h-10" />, title: 'Accuracy', description: 'We ensure correct calculations & compliance.' },
               { icon: <Clock className="w-10 h-10" />, title: 'Timeliness', description: 'We file and deliver on time.' },
-              { icon: <HeartHandshake className="w-10 h-10" />, title: 'Support', description: 'You get personal assistance — no bots.' },
+              { icon: <HeartHandshake className="w-10 h-10" />, title: 'Support', description: 'You get personal assistance â€” no bots.' },
             ].map((value, index) => (
               <motion.div key={index} variants={staggerItem}>
                 <Card className="border-2 border-[#E9D9FF] h-full text-center hover:shadow-xl transition-shadow">
@@ -313,3 +313,6 @@ export function AboutPage() {
     </div>
   );
 }
+
+
+

@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { Briefcase, TrendingUp, Globe, Award, ArrowRight } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
@@ -45,7 +45,7 @@ export function TaxFilingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm">
-              📊 Income Tax Filing Services
+              ðŸ“Š Income Tax Filing Services
             </div>
             <h1 className="text-white mb-6 text-4xl lg:text-5xl">File Your Income Tax Return with Expert Assistance</h1>
             <p className="text-white/90 text-lg lg:text-xl mb-8">
@@ -105,7 +105,7 @@ export function TaxFilingPage() {
               <div className="space-y-4">
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Expert Review</h3>
@@ -114,7 +114,7 @@ export function TaxFilingPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Hassle-Free Process</h3>
@@ -123,7 +123,7 @@ export function TaxFilingPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Quick Turnaround</h3>
@@ -132,7 +132,7 @@ export function TaxFilingPage() {
                 </div>
                 <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-sm">
                   <div className="w-8 h-8 rounded-full bg-[#6A23F5] flex items-center justify-center text-white flex-shrink-0">
-                    ✓
+                    âœ“
                   </div>
                   <div>
                     <h3 className="text-[#1A1A1A] mb-1">Refund Tracking</h3>
@@ -171,3 +171,6 @@ export function TaxFilingPage() {
     </div>
   );
 }
+
+
+

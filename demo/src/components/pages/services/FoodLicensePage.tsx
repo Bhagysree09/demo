@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { UtensilsCrossed, Store, Truck, Home } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -12,9 +12,9 @@ export function FoodLicensePage() {
   ];
 
   const licenseTypes = [
-    { name: 'Basic FSSAI Registration', turnover: 'Up to ₹12 lakhs', validity: '1-5 years' },
-    { name: 'State FSSAI License', turnover: '₹12 lakhs - ₹20 crores', validity: '1-5 years' },
-    { name: 'Central FSSAI License', turnover: 'Above ₹20 crores', validity: '1-5 years' },
+    { name: 'Basic FSSAI Registration', turnover: 'Up to â‚¹12 lakhs', validity: '1-5 years' },
+    { name: 'State FSSAI License', turnover: 'â‚¹12 lakhs - â‚¹20 crores', validity: '1-5 years' },
+    { name: 'Central FSSAI License', turnover: 'Above â‚¹20 crores', validity: '1-5 years' },
   ];
 
   const documents = [
@@ -113,28 +113,28 @@ export function FoodLicensePage() {
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Mandatory by law — operating without FSSAI license can lead to heavy penalties
+                  <span className="text-[#6A23F5]">âœ“</span> Mandatory by law â€” operating without FSSAI license can lead to heavy penalties
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Builds customer trust and credibility
+                  <span className="text-[#6A23F5]">âœ“</span> Builds customer trust and credibility
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Required for listing on food delivery platforms (Zomato, Swiggy, etc.)
+                  <span className="text-[#6A23F5]">âœ“</span> Required for listing on food delivery platforms (Zomato, Swiggy, etc.)
                 </p>
               </CardContent>
             </Card>
             <Card className="border-2 border-[#E9D9FF] bg-white">
               <CardContent className="p-4">
                 <p className="text-[#1A1A1A]">
-                  <span className="text-[#6A23F5]">✓</span> Ensures food safety standards are maintained
+                  <span className="text-[#6A23F5]">âœ“</span> Ensures food safety standards are maintained
                 </p>
               </CardContent>
             </Card>
@@ -175,3 +175,6 @@ export function FoodLicensePage() {
     </div>
   );
 }
+
+
+

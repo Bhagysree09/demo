@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { AlertCircle, FileText, CheckCircle2, MessageSquare } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -43,7 +43,7 @@ export function TrademarkObjectionPage() {
               <div className="flex items-start gap-4">
                 <AlertCircle className="w-8 h-8 text-[#E85C5C] flex-shrink-0" />
                 <div>
-                  <h3 className="text-[#1A1A1A] mb-2">⚠️ Important</h3>
+                  <h3 className="text-[#1A1A1A] mb-2">âš ï¸ Important</h3>
                   <p className="text-[#6F6F6F]">
                     Missing the 30-day deadline or submitting a weak response can result in your trademark application being abandoned. Professional assistance is crucial.
                   </p>
@@ -184,3 +184,6 @@ export function TrademarkObjectionPage() {
     </div>
   );
 }
+
+
+

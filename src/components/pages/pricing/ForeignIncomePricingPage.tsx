@@ -1,5 +1,5 @@
-import { motion } from 'motion/react';
-import { Check, Star, Shield, Globe, Users, ArrowRight, Phone, Mail } from 'lucide-react';
+﻿import { motion } from 'motion/react';
+import { Check, Star, ArrowRight, Phone, Mail } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 import { Link } from 'react-router-dom';
@@ -36,7 +36,7 @@ export function ForeignIncomePricingPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="text-6xl mb-6">🌍</div>
+            <div className="text-6xl mb-6">ðŸŒ</div>
             <h1 className="text-5xl md:text-6xl mb-6">Foreign Income Tax Filing</h1>
             <p className="text-xl mb-8 text-white/90">
               For NRIs and individuals with foreign income
@@ -50,8 +50,8 @@ export function ForeignIncomePricingPage() {
               </div>
             </div>
             <div className="text-center">
-              <p className="text-white/80 line-through text-xl">₹16,249</p>
-              <p className="text-5xl">₹4,999</p>
+              <p className="text-white/80 line-through text-xl">â‚¹16,249</p>
+              <p className="text-5xl">â‚¹4,999</p>
               <p className="text-green-300 mt-2">Save 60%</p>
             </div>
           </motion.div>
@@ -81,8 +81,8 @@ export function ForeignIncomePricingPage() {
               <Card className="border-0 shadow-2xl">
                 <CardContent className="p-8">
                   <div className="text-center mb-6">
-                    <p className="text-gray-500 line-through text-xl mb-2">₹16,249</p>
-                    <p className="text-5xl text-[#1A1A1A] mb-2">₹4,999</p>
+                    <p className="text-gray-500 line-through text-xl mb-2">â‚¹16,249</p>
+                    <p className="text-5xl text-[#1A1A1A] mb-2">â‚¹4,999</p>
                     <p className="text-green-600">Save 60%</p>
                   </div>
                   <div className="space-y-4 mb-6">
@@ -115,3 +115,5 @@ export function ForeignIncomePricingPage() {
     </div>
   );
 }
+
+

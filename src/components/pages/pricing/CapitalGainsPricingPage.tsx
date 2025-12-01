@@ -1,5 +1,5 @@
-import { motion } from 'motion/react';
-import { Check, Star, Shield, Clock, Users, ArrowRight, Phone, Mail, TrendingUp } from 'lucide-react';
+﻿import { motion } from 'motion/react';
+import { Check, Star, Shield, Clock, TrendingUp, ArrowRight, Phone, Mail } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
 import { Link } from 'react-router-dom';
@@ -56,7 +56,7 @@ export function CapitalGainsPricingPage() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <div className="text-6xl mb-6">💹</div>
+            <div className="text-6xl mb-6">ðŸ’¹</div>
             <h1 className="text-5xl md:text-6xl mb-6">
               Capital Gains Income Tax Filing
             </h1>
@@ -73,8 +73,8 @@ export function CapitalGainsPricingPage() {
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <div className="text-center">
-                <p className="text-white/80 line-through text-xl">₹8,749</p>
-                <p className="text-5xl">₹2,999</p>
+                <p className="text-white/80 line-through text-xl">â‚¹8,749</p>
+                <p className="text-5xl">â‚¹2,999</p>
                 <p className="text-green-300 mt-2">Save 60%</p>
               </div>
             </div>
@@ -172,7 +172,7 @@ export function CapitalGainsPricingPage() {
                         className="flex items-start gap-4"
                       >
                         <div className="w-8 h-8 bg-[#6A23F5] text-white rounded-full flex items-center justify-center flex-shrink-0">
-                          ✓
+                          âœ“
                         </div>
                         <p className="text-[#1A1A1A] text-lg mt-0.5">{item}</p>
                       </motion.div>
@@ -223,8 +223,8 @@ export function CapitalGainsPricingPage() {
               <Card className="border-0 shadow-2xl">
                 <CardContent className="p-8">
                   <div className="text-center mb-6">
-                    <p className="text-gray-500 line-through text-xl mb-2">₹8,749</p>
-                    <p className="text-5xl text-[#1A1A1A] mb-2">₹2,999</p>
+                    <p className="text-gray-500 line-through text-xl mb-2">â‚¹8,749</p>
+                    <p className="text-5xl text-[#1A1A1A] mb-2">â‚¹2,999</p>
                     <p className="text-green-600">Save 60% Limited Time Offer</p>
                   </div>
 
@@ -265,9 +265,9 @@ export function CapitalGainsPricingPage() {
 
                   <div className="mt-6 p-4 bg-green-50 rounded-xl">
                     <p className="text-sm text-center text-gray-700">
-                      ✓ Expert CA for Capital Gains<br />
-                      ✓ Maximum Tax Savings<br />
-                      ✓ Accurate Calculations
+                      âœ“ Expert CA for Capital Gains<br />
+                      âœ“ Maximum Tax Savings<br />
+                      âœ“ Accurate Calculations
                     </p>
                   </div>
                 </CardContent>
@@ -279,3 +279,5 @@ export function CapitalGainsPricingPage() {
     </div>
   );
 }
+
+

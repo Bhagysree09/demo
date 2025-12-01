@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Mail, Lock, User, Phone, Eye, EyeOff, ArrowRight } from 'lucide-react';
 import { motion } from 'motion/react';
@@ -63,10 +63,10 @@ export function SignupPage() {
             
             <div className="space-y-4">
               {[
-                { icon: '🎯', text: 'Simple & Fast Registration' },
-                { icon: '👨‍💼', text: 'Dedicated CA Support' },
-                { icon: '💰', text: 'Best Prices Guaranteed' },
-                { icon: '🔒', text: 'Secure & Confidential' }
+                { icon: 'ðŸŽ¯', text: 'Simple & Fast Registration' },
+                { icon: 'ðŸ‘¨â€ðŸ’¼', text: 'Dedicated CA Support' },
+                { icon: 'ðŸ’°', text: 'Best Prices Guaranteed' },
+                { icon: 'ðŸ”’', text: 'Secure & Confidential' }
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -101,7 +101,7 @@ export function SignupPage() {
               </div>
               <div className="flex items-center gap-1 text-yellow-300">
                 {[...Array(5)].map((_, i) => (
-                  <span key={i}>⭐</span>
+                  <span key={i}>â­</span>
                 ))}
                 <span className="ml-2 text-white">4.8/5 Average Rating</span>
               </div>
@@ -339,7 +339,7 @@ export function SignupPage() {
             transition={{ delay: 1.3 }}
           >
             <Link to="/" className="text-gray-600 hover:text-[#6A23F5] text-sm">
-              ← Back to Home
+              â† Back to Home
             </Link>
           </motion.div>
         </motion.div>
@@ -347,3 +347,5 @@ export function SignupPage() {
     </div>
   );
 }
+
+

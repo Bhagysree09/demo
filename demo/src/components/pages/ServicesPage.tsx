@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { FileText, Receipt, ShieldCheck, Building2, UtensilsCrossed } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
@@ -61,7 +61,7 @@ export function ServicesPage() {
                   <ul className="space-y-2 mb-6">
                     {category.services.map((service, idx) => (
                       <li key={idx} className="text-[#6F6F6F] flex items-start">
-                        <span className="text-[#6A23F5] mr-2">•</span>
+                        <span className="text-[#6A23F5] mr-2">â€¢</span>
                         {service}
                       </li>
                     ))}
@@ -114,3 +114,6 @@ export function ServicesPage() {
     </div>
   );
 }
+
+
+

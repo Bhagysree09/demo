@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { ShieldCheck, Award, Lock, Globe } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -105,7 +105,7 @@ export function TrademarkRegistrationPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="border-2 border-[#6A23F5] bg-white">
             <CardContent className="p-6">
-              <h3 className="text-[#1A1A1A] mb-3">📌 Important Note</h3>
+              <h3 className="text-[#1A1A1A] mb-3">ðŸ“Œ Important Note</h3>
               <p className="text-[#6F6F6F]">
                 Trademark registration provides protection for 10 years and is renewable. We provide complete support from search to registration, including objection handling if needed.
               </p>
@@ -131,3 +131,6 @@ export function TrademarkRegistrationPage() {
     </div>
   );
 }
+
+
+

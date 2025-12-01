@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { TrendingUp, CheckCircle2, ArrowRight } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -24,7 +24,7 @@ export function CapitalGainsPage() {
     {
       title: 'Long-term Capital Gains',
       description: 'Assets held for more than specified period',
-      tax: '10% above ₹1L for equity, 20% with indexation for property',
+      tax: '10% above â‚¹1L for equity, 20% with indexation for property',
     },
   ];
 
@@ -36,7 +36,7 @@ export function CapitalGainsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm">
-                📈 Capital Gains Filing
+                ðŸ“ˆ Capital Gains Filing
               </div>
               <h1 className="text-white mb-6 text-4xl lg:text-5xl">Income Tax Filing for Capital Gains</h1>
               <p className="text-white/90 text-lg mb-8">
@@ -144,3 +144,6 @@ export function CapitalGainsPage() {
     </div>
   );
 }
+
+
+

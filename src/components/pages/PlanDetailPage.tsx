@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+﻿import { useNavigate, useParams } from "react-router-dom";
 import {
   ArrowLeft,
   Check,
@@ -60,7 +60,7 @@ const planDetails: Record<PlanKey, PlanDetail> = {
       "Form 16 analysis and salary breakup validation",
       "House rent allowance (HRA) exemption calculation",
       "Leave Travel Allowance (LTA) claim assistance",
-      "Standard deduction of ₹50,000 automatically claimed",
+      "Standard deduction of â‚¹50,000 automatically claimed",
       "Section 80C to 80U deductions optimization",
       "Interest on home loan (Section 24 & 80EE)",
       "Professional tax and other deductions",
@@ -102,7 +102,7 @@ const planDetails: Record<PlanKey, PlanDetail> = {
       "Previous year ITR acknowledgement (if filed before)",
     ],
     whyChoose: [
-      "Average refund of ₹18,500 for our customers",
+      "Average refund of â‚¹18,500 for our customers",
       "Filed 50,000+ returns with 99.8% accuracy",
       "Dedicated CA assigned to your case",
       "Response within 2 hours on business days",
@@ -174,7 +174,7 @@ const planDetails: Record<PlanKey, PlanDetail> = {
       "PAN, Aadhaar, and previous ITR details",
     ],
     whyChoose: [
-      "Saved investors an average of ₹45,000 in taxes",
+      "Saved investors an average of â‚¹45,000 in taxes",
       "Expert handling of complex indexation calculations",
       "Loss carry forward ensuring future tax benefits",
       "Clarity on confusing capital gains rules",
@@ -225,7 +225,7 @@ const planDetails: Record<PlanKey, PlanDetail> = {
       "NRIs (Non-Resident Indians) with income in India",
       "Residents earning salary or business income abroad",
       "Individuals with foreign bank accounts and investments",
-      "Those holding foreign assets worth over ₹50 lakhs",
+      "Those holding foreign assets worth over â‚¹50 lakhs",
       "Anyone claiming DTAA benefits and foreign tax credits",
     ],
     howItWorks: [
@@ -335,7 +335,7 @@ const planDetails: Record<PlanKey, PlanDetail> = {
     description:
       "Tailored tax solution for freelancers, consultants, doctors, CAs, and all professionals. Maximize your expense deductions and file with complete confidence and expert support.",
     features: [
-      "Professional/consultation income up to ₹50L",
+      "Professional/consultation income up to â‚¹50L",
       "Presumptive taxation under 44ADA (50% expenses)",
       "Business expenses deduction strategies",
       "TDS on professional fees handling",
@@ -364,7 +364,7 @@ const planDetails: Record<PlanKey, PlanDetail> = {
       "Doctors, CAs, lawyers, architects",
       "Content creators and influencers",
       "IT professionals and designers",
-      "Any professional with gross receipts under ₹50L",
+      "Any professional with gross receipts under â‚¹50L",
     ],
     whoShouldBuy: [
       "Proprietors, consultants, freelancers with business income",
@@ -436,7 +436,7 @@ const planDetails: Record<PlanKey, PlanDetail> = {
       "Small businesses with regular transactions",
       "E-commerce sellers and online businesses",
       "Retail shops and service providers",
-      "Businesses below ₹2 crore turnover",
+      "Businesses below â‚¹2 crore turnover",
       "Anyone needing professional accounting support",
     ],
     whoShouldBuy: [
@@ -512,14 +512,14 @@ export default function PlanDetailPage() {
                 </div>
                 <h1 className="mb-4 text-3xl font-bold text-[#1A1A1A] md:text-4xl">{plan.title}</h1>
                 <div className="mb-4 flex items-end gap-3">
-                  <span className="text-sm text-gray-400 line-through">₹{plan.originalPrice}</span>
+                  <span className="text-sm text-gray-400 line-through">â‚¹{plan.originalPrice}</span>
                   <span className="bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-5xl font-bold text-transparent">
-                    ₹{plan.price}
+                    â‚¹{plan.price}
                   </span>
                 </div>
                 <div className="mb-5">
                   <span className="inline-flex rounded-full bg-green-100 px-4 py-2 text-sm font-semibold text-green-700">
-                    {plan.discount} • Limited Time Offer
+                    {plan.discount} â€¢ Limited Time Offer
                   </span>
                 </div>
                 <div className="mb-6 flex items-center gap-2 border-b border-gray-100 pb-6">
@@ -527,7 +527,7 @@ export default function PlanDetailPage() {
                     <Star className="h-5 w-5 fill-yellow-400 text-yellow-400" />
                     {plan.rating}
                   </span>
-                  <span className="text-sm text-gray-600">• {plan.reviews}</span>
+                  <span className="text-sm text-gray-600">â€¢ {plan.reviews}</span>
                 </div>
                 <p className="mb-8 text-gray-700">{plan.description}</p>
                 <div className="mb-8 space-y-3">
@@ -592,7 +592,7 @@ export default function PlanDetailPage() {
                       <div className="space-y-2 text-sm text-gray-700">
                         {plan.whyChoose.map((reason, index) => (
                           <p key={index} className="flex items-start gap-2">
-                            <span className="text-violet-600">✓</span>
+                            <span className="text-violet-600">âœ“</span>
                             {reason}
                           </p>
                         ))}
@@ -666,5 +666,7 @@ export default function PlanDetailPage() {
     </div>
   );
 }
+
+
 
 

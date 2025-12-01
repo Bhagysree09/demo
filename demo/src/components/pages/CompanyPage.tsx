@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { Building2, Users, FileText, Scale } from 'lucide-react';
 import { Button } from '../ui/button';
 import { Card, CardContent } from '../ui/card';
@@ -109,3 +109,6 @@ export function CompanyPage() {
     </div>
   );
 }
+
+
+

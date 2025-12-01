@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Check, Star } from 'lucide-react';
 import { Button } from '../ui/button';
@@ -21,9 +21,9 @@ export function PricingPage() {
   const individualsPlans = [
     {
       title: 'Salary or House Rent Income',
-      icon: '🏠',
-      originalPrice: '₹4599',
-      price: '₹1499',
+      icon: 'ðŸ ',
+      originalPrice: 'â‚¹4599',
+      price: 'â‚¹1499',
       discount: 'Save 60%',
       rating: 4.8,
       link: '/pricing/salary-house-rent',
@@ -36,9 +36,9 @@ export function PricingPage() {
     },
     {
       title: 'Capital Gains Income',
-      icon: '💹',
-      originalPrice: '₹8749',
-      price: '₹2999',
+      icon: 'ðŸ’¹',
+      originalPrice: 'â‚¹8749',
+      price: 'â‚¹2999',
       discount: 'Save 60%',
       rating: 4.5,
       link: '/pricing/capital-gains',
@@ -50,9 +50,9 @@ export function PricingPage() {
     },
     {
       title: 'Foreign Income',
-      icon: '🌍',
-      originalPrice: '₹16249',
-      price: '₹4999',
+      icon: 'ðŸŒ',
+      originalPrice: 'â‚¹16249',
+      price: 'â‚¹4999',
       discount: 'Save 60%',
       rating: 4.8,
       link: '/pricing/foreign-income',
@@ -68,9 +68,9 @@ export function PricingPage() {
   const professionalsPlans = [
     {
       title: 'For Traders',
-      icon: '📊',
-      originalPrice: '₹12499',
-      price: '₹6999',
+      icon: 'ðŸ“Š',
+      originalPrice: 'â‚¹12499',
+      price: 'â‚¹6999',
       discount: 'Save 60%',
       rating: 4.3,
       link: '/pricing/traders',
@@ -83,9 +83,9 @@ export function PricingPage() {
     },
     {
       title: 'For Professionals and Freelancers',
-      icon: '💼',
-      originalPrice: '₹13749',
-      price: '₹2999',
+      icon: 'ðŸ’¼',
+      originalPrice: 'â‚¹13749',
+      price: 'â‚¹2999',
       discount: 'Save 60%',
       rating: 4.4,
       link: '/pricing/professionals-freelancers',
@@ -97,9 +97,9 @@ export function PricingPage() {
     },
     {
       title: 'For Business',
-      icon: '🏢',
-      originalPrice: '₹16249',
-      price: '₹5999',
+      icon: 'ðŸ¢',
+      originalPrice: 'â‚¹16249',
+      price: 'â‚¹5999',
       discount: 'Save 60%',
       rating: 4.3,
       link: '/pricing/business',
@@ -252,7 +252,7 @@ export function PricingPage() {
                       Buy now
                     </Button>
                     <Link to={plan.link} className="w-full text-[#6A23F5] hover:underline text-sm">
-                      Know more →
+                      Know more â†’
                     </Link>
                   </div>
                 </CardContent>
@@ -281,21 +281,21 @@ export function PricingPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="p-6">
-                <div className="text-4xl mb-4">✓</div>
+                <div className="text-4xl mb-4">âœ“</div>
                 <h3 className="text-xl text-[#1A1A1A] mb-2">Expert Guidance</h3>
                 <p className="text-gray-600">
                   Professional tax consultants to guide you through every step
                 </p>
               </div>
               <div className="p-6">
-                <div className="text-4xl mb-4">⚡</div>
+                <div className="text-4xl mb-4">âš¡</div>
                 <h3 className="text-xl text-[#1A1A1A] mb-2">Fast Processing</h3>
                 <p className="text-gray-600">
                   Quick turnaround time for all your tax filing needs
                 </p>
               </div>
               <div className="p-6">
-                <div className="text-4xl mb-4">🔒</div>
+                <div className="text-4xl mb-4">ðŸ”’</div>
                 <h3 className="text-xl text-[#1A1A1A] mb-2">Secure & Confidential</h3>
                 <p className="text-gray-600">
                   Your data is protected with industry-standard security
@@ -308,3 +308,4 @@ export function PricingPage() {
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+﻿import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Navigation } from './components/Navigation';
 import { Footer } from './components/Footer';
 import { HomePage } from './components/pages/HomePage';
@@ -106,3 +106,6 @@ export default function App() {
     </Router>
   );
 }
+
+
+

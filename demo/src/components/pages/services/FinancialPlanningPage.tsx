@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { PiggyBank, Shield, Heart, Home, GraduationCap, CheckCircle2, Target } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../ui/button';
@@ -101,3 +101,6 @@ export function FinancialPlanningPage() {
     </div>
   );
 }
+
+
+

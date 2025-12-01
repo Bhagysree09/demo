@@ -1,4 +1,4 @@
-import { Star, CheckCircle } from "lucide-react";
+﻿import { Star, CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
 type Plan = {
@@ -63,8 +63,8 @@ export function PricingPage() {
   const individualPlans: Plan[] = [
     {
       title: "Salary or House Rent Income",
-      oldPrice: "₹ 6,999",
-      price: "₹ 2,749",
+      oldPrice: "â‚¹ 6,999",
+      price: "â‚¹ 2,749",
       rating: 4.8,
       bulletTitle: "Covers income from",
       bullets: ["Salary", "House property", "Withdrawal from PF and bank deposits", "Donations"],
@@ -73,8 +73,8 @@ export function PricingPage() {
     },
     {
       title: "Capital Gains Income",
-      oldPrice: "₹ 12,499",
-      price: "₹ 4,999",
+      oldPrice: "â‚¹ 12,499",
+      price: "â‚¹ 4,999",
       rating: 4.5,
       bulletTitle: "Covers income from",
       bullets: [
@@ -87,8 +87,8 @@ export function PricingPage() {
     },
     {
       title: "Foreign Income (NRI)",
-      oldPrice: "₹ 11,499",
-      price: "₹ 6,999",
+      oldPrice: "â‚¹ 11,499",
+      price: "â‚¹ 6,999",
       rating: 4.8,
       bulletTitle: "Covers income from",
       bullets: ["Capital Gains Income Plan", "Income earned outside India", "Income received in India for NRE/NRO", "DTAA guidance"],
@@ -100,8 +100,8 @@ export function PricingPage() {
   const professionalPlans: Plan[] = [
     {
       title: "For Traders",
-      oldPrice: "₹ 12,999",
-      price: "₹ 4,719",
+      oldPrice: "â‚¹ 12,999",
+      price: "â‚¹ 4,719",
       rating: 4.3,
       bulletTitle: "Covers income from",
       bullets: ["For Traders", "Preparation of Account Summary, P&L and balance sheet", "Also covers salary, other incomes and capital gains", "Audit fee and DSC not included"],
@@ -110,8 +110,8 @@ export function PricingPage() {
     },
     {
       title: "For Professionals and Freelancers",
-      oldPrice: "₹ 12,999",
-      price: "₹ 4,999",
+      oldPrice: "â‚¹ 12,999",
+      price: "â‚¹ 4,999",
       rating: 4.4,
       bulletTitle: "Covers income from",
       bullets: [
@@ -124,8 +124,8 @@ export function PricingPage() {
     },
     {
       title: "For Business",
-      oldPrice: "₹ 12,999",
-      price: "₹ 6,999",
+      oldPrice: "â‚¹ 12,999",
+      price: "â‚¹ 6,999",
       rating: 4.3,
       bulletTitle: "Covers income from",
       bullets: [
@@ -187,5 +187,8 @@ export function PricingPage() {
 }
 
 export default PricingPage;
+
+
+
 
 

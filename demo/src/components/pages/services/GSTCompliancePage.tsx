@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { Search, AlertCircle, CheckCircle2, FileWarning } from 'lucide-react';
 import { Button } from '../../ui/button';
 import { Card, CardContent } from '../../ui/card';
@@ -58,11 +58,11 @@ export function GSTCompliancePage() {
               <div>
                 <h3 className="text-[#1A1A1A] mb-2">Common GST Compliance Issues</h3>
                 <ul className="space-y-2 text-[#6F6F6F]">
-                  <li>• Claiming ITC on invoices not reflected in GSTR-2A/2B</li>
-                  <li>• Wrong HSN/SAC code classification</li>
-                  <li>• Incorrect place of supply reporting</li>
-                  <li>• Mismatch between books and GST returns</li>
-                  <li>• Late filing penalties accumulating</li>
+                  <li>â€¢ Claiming ITC on invoices not reflected in GSTR-2A/2B</li>
+                  <li>â€¢ Wrong HSN/SAC code classification</li>
+                  <li>â€¢ Incorrect place of supply reporting</li>
+                  <li>â€¢ Mismatch between books and GST returns</li>
+                  <li>â€¢ Late filing penalties accumulating</li>
                 </ul>
               </div>
             </div>
@@ -163,3 +163,6 @@ export function GSTCompliancePage() {
     </div>
   );
 }
+
+
+

@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+﻿import { useNavigate } from 'react-router-dom';
 import { Check, Star, ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '../components/ui/button';
 
@@ -61,8 +61,8 @@ export default function PricingCard({
         
         {/* Pricing */}
         <div className="flex items-center justify-center gap-3 mb-2">
-          <span className="text-gray-400 line-through">₹{originalPrice}</span>
-          <span className="text-4xl bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-transparent">₹{price}</span>
+          <span className="text-gray-400 line-through">â‚¹{originalPrice}</span>
+          <span className="text-4xl bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-transparent">â‚¹{price}</span>
         </div>
         <div className="text-center mb-4">
           <span className="inline-block bg-green-100 text-green-700 px-3 py-1 rounded-full">{discount}</span>
@@ -74,7 +74,7 @@ export default function PricingCard({
             <Star className="w-4 h-4 fill-yellow-400 text-yellow-400" />
             <span className="text-yellow-700">{rating}</span>
           </div>
-          <span className="text-gray-500">• {reviews}</span>
+          <span className="text-gray-500">â€¢ {reviews}</span>
         </div>
 
         {/* Description */}
@@ -127,3 +127,6 @@ export default function PricingCard({
     </div>
   );
 }
+
+
+

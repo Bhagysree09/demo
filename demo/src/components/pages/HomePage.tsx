@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+﻿import { Link } from 'react-router-dom';
 import { FileText, Building, Receipt, ShieldCheck, UtensilsCrossed, CheckCircle2, MessageCircle, ArrowRight, TrendingUp, Users, Clock, Award, Star, Phone, Zap, Target, Heart, Briefcase, DollarSign, FileCheck, CheckCircle, AlertCircle } from 'lucide-react';
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
@@ -60,7 +60,7 @@ export function HomePage() {
   ];
 
   const benefits = [
-    { icon: <CheckCircle2 className="w-6 h-6" />, text: 'Transparent Pricing — No Hidden Charges' },
+    { icon: <CheckCircle2 className="w-6 h-6" />, text: 'Transparent Pricing â€” No Hidden Charges' },
     { icon: <Users className="w-6 h-6" />, text: 'Dedicated Personal Expert' },
     { icon: <Clock className="w-6 h-6" />, text: 'Accurate & On-time Filing' },
     { icon: <ShieldCheck className="w-6 h-6" />, text: 'Data Privacy & Confidentiality Maintained' },
@@ -192,7 +192,7 @@ export function HomePage() {
     {
       icon: <Building className="w-6 h-6" />,
       title: 'Company Setup',
-      subtitle: '₹15,999',
+      subtitle: 'â‚¹15,999',
       status: 'price',
       delay: 0.4,
       position: { bottom: '15%', left: '0%' }
@@ -208,7 +208,7 @@ export function HomePage() {
     {
       icon: <DollarSign className="w-6 h-6" />,
       title: 'Tax Saved',
-      subtitle: '₹45,000',
+      subtitle: 'â‚¹45,000',
       status: 'success',
       delay: 0.8,
       position: { top: '45%', right: '-8%' }
@@ -267,7 +267,7 @@ export function HomePage() {
                 transition={{ duration: 0.6 }}
                 className="inline-block mb-4 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm"
               >
-                ✨ Trusted by 5000+ Businesses
+                âœ¨ Trusted by 5000+ Businesses
               </motion.div>
               
               <motion.h1
@@ -663,7 +663,7 @@ export function HomePage() {
               >
                 {[
                   { icon: Award, text: '500+ Startups Successfully Registered', color: 'from-blue-500 to-blue-600' },
-                  { icon: TrendingUp, text: '₹50 Cr+ Tax Savings for Clients', color: 'from-green-500 to-green-600' },
+                  { icon: TrendingUp, text: 'â‚¹50 Cr+ Tax Savings for Clients', color: 'from-green-500 to-green-600' },
                   { icon: Target, text: '98% Client Retention Rate', color: 'from-purple-500 to-purple-600' },
                   { icon: CheckCircle2, text: 'Zero Penalty Track Record', color: 'from-pink-500 to-pink-600' },
                 ].map((item, index) => (
@@ -974,3 +974,6 @@ export function HomePage() {
     </div>
   );
 }
+
+
+

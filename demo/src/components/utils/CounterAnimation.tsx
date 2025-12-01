@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { motion, useInView } from 'motion/react';
 import { useRef } from 'react';
 
@@ -49,3 +49,6 @@ export function CounterAnimation({ end, duration = 2, suffix = '', className = '
     </motion.span>
   );
 }
+
+
+

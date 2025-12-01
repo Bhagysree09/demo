@@ -1,4 +1,4 @@
-import { useParams, useNavigate } from 'react-router-dom';
+﻿import { useParams, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Check, Star, Shield, HeadphonesIcon, FileCheck, TrendingUp } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import '../styles/pricing-tokens.css';
@@ -27,7 +27,7 @@ const planDetails = {
       'Form 16 analysis and salary breakup validation',
       'House rent allowance (HRA) exemption calculation',
       'Leave Travel Allowance (LTA) claim assistance',
-      'Standard deduction of ₹50,000 automatically claimed',
+      'Standard deduction of â‚¹50,000 automatically claimed',
       'Section 80C to 80U deductions optimization',
       'Interest on home loan (Section 24 & 80EE)',
       'Professional tax and other deductions',
@@ -69,7 +69,7 @@ const planDetails = {
       'Previous year ITR acknowledgement (if filed before)'
     ],
     whyChoose: [
-      'Average refund of ₹18,500 for our customers',
+      'Average refund of â‚¹18,500 for our customers',
       'Filed 50,000+ returns with 99.8% accuracy',
       'Dedicated CA assigned to your case',
       'Response within 2 hours on business days'
@@ -140,7 +140,7 @@ const planDetails = {
       'PAN, Aadhaar, and previous ITR details'
     ],
     whyChoose: [
-      'Saved investors an average of ₹45,000 in taxes',
+      'Saved investors an average of â‚¹45,000 in taxes',
       'Expert handling of complex indexation calculations',
       'Loss carry forward ensuring future tax benefits',
       'Clarity on confusing capital gains rules'
@@ -190,7 +190,7 @@ const planDetails = {
       'NRIs (Non-Resident Indians) with income in India',
       'Residents earning salary or business income abroad',
       'Individuals with foreign bank accounts and investments',
-      'Those holding foreign assets worth over ₹50 lakhs',
+      'Those holding foreign assets worth over â‚¹50 lakhs',
       'Anyone claiming DTAA benefits and foreign tax credits'
     ],
     howItWorks: [
@@ -298,7 +298,7 @@ const planDetails = {
     reviews: '6,900+ professionals',
     description: 'Tailored tax solution for freelancers, consultants, doctors, CAs, and all professionals. Maximize your expense deductions and file with complete confidence and expert support.',
     features: [
-      'Professional/consultation income up to ₹50L',
+      'Professional/consultation income up to â‚¹50L',
       'Presumptive taxation under 44ADA (50% expenses)',
       'Business expenses deduction strategies',
       'TDS on professional fees handling',
@@ -327,7 +327,7 @@ const planDetails = {
       'Doctors, CAs, lawyers, architects',
       'Content creators and influencers',
       'IT professionals and designers',
-      'Any professional with gross receipts under ₹50L'
+      'Any professional with gross receipts under â‚¹50L'
     ],
     whoShouldBuy: [
       'Proprietors, consultants, freelancers with business income',
@@ -398,7 +398,7 @@ const planDetails = {
       'Small businesses with regular transactions',
       'E-commerce sellers and online businesses',
       'Retail shops and service providers',
-      'Businesses below ₹2 crore turnover',
+      'Businesses below â‚¹2 crore turnover',
       'Anyone needing professional accounting support'
     ],
     whoShouldBuy: [
@@ -474,12 +474,12 @@ export default function PlanDetailPage() {
                 <h1 className="mb-4">{plan.title}</h1>
                 
                 <div className="flex items-center gap-3 mb-4">
-                  <span className="text-gray-400 line-through">₹{plan.originalPrice}</span>
-                  <span className="text-5xl bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-transparent">₹{plan.price}</span>
+                  <span className="text-gray-400 line-through">â‚¹{plan.originalPrice}</span>
+                  <span className="text-5xl bg-gradient-to-r from-violet-600 to-fuchsia-600 bg-clip-text text-transparent">â‚¹{plan.price}</span>
                 </div>
                 <div className="mb-4">
                   <span className="inline-block bg-green-100 text-green-700 px-4 py-2 rounded-full">
-                    {plan.discount} • Limited Time Offer
+                    {plan.discount} â€¢ Limited Time Offer
                   </span>
                 </div>
                 
@@ -488,7 +488,7 @@ export default function PlanDetailPage() {
                     <Star className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                     <span className="text-yellow-700">{plan.rating}</span>
                   </div>
-                  <span className="text-gray-600">• {plan.reviews}</span>
+                  <span className="text-gray-600">â€¢ {plan.reviews}</span>
                 </div>
 
                 <p className="text-gray-700 mb-8 leading-relaxed">{plan.description}</p>
@@ -560,7 +560,7 @@ export default function PlanDetailPage() {
                     <div className="space-y-2">
                       {plan.whyChoose.map((reason, index) => (
                         <p key={index} className="text-gray-700 flex items-start gap-2">
-                          <span className="text-violet-600">✓</span>
+                          <span className="text-violet-600">âœ“</span>
                           {reason}
                         </p>
                       ))}
@@ -641,3 +641,5 @@ export default function PlanDetailPage() {
     </div>
   );
 }
+
+

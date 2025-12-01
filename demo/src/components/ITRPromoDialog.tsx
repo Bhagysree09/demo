@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+﻿import React, { useEffect, useState } from 'react'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogFooter, DialogClose, DialogTrigger } from './ui/dialog'
 import { Button } from './ui/button'
 import { Link } from 'react-router-dom'
@@ -41,8 +41,8 @@ export default function ITRPromoDialog() {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>ITR Filing — Limited Time Offer</DialogTitle>
-          <DialogDescription>Get hassle-free ITR filing starting at just ₹199. Offer valid for new customers.</DialogDescription>
+          <DialogTitle>ITR Filing â€” Limited Time Offer</DialogTitle>
+          <DialogDescription>Get hassle-free ITR filing starting at just â‚¹199. Offer valid for new customers.</DialogDescription>
         </DialogHeader>
 
         <div className="py-4">
@@ -61,3 +61,6 @@ export default function ITRPromoDialog() {
     </Dialog>
   )
 }
+
+
+

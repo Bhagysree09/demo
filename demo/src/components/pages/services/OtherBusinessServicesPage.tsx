@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { FileText, Key, Shield, Scale, Building2, Users, Fingerprint, ClipboardList, FileCheck, Calculator, Palette, MapPin, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../../ui/button';
@@ -146,3 +146,6 @@ export function OtherBusinessServicesPage() {
     </div>
   );
 }
+
+
+

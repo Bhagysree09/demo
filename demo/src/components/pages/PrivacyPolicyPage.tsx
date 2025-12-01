@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+﻿import { motion } from 'motion/react';
 import { Shield, Lock, Eye, UserCheck, FileText, Mail, Phone } from 'lucide-react';
 import { Card, CardContent } from '../ui/card';
 import { fadeInUp } from '../utils/animations';
@@ -66,10 +66,10 @@ export function PrivacyPolicyPage() {
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">2. How We Use Your Information</h2>
                       <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• To provide and improve tax filing and compliance services.</li>
-                        <li>• To communicate with you regarding your account, transactions, and updates.</li>
-                        <li>• For marketing purposes, only with your consent.</li>
-                        <li>• To comply with legal obligations, including tax authorities and regulatory bodies.</li>
+                        <li>â€¢ To provide and improve tax filing and compliance services.</li>
+                        <li>â€¢ To communicate with you regarding your account, transactions, and updates.</li>
+                        <li>â€¢ For marketing purposes, only with your consent.</li>
+                        <li>â€¢ To comply with legal obligations, including tax authorities and regulatory bodies.</li>
                       </ul>
                     </div>
                   </div>
@@ -87,9 +87,9 @@ export function PrivacyPolicyPage() {
                     <div className="flex-1">
                       <h2 className="text-[#1A1A1A] mb-4">3. Data Sharing and Disclosure</h2>
                       <ul className="space-y-2 text-[#6F6F6F]">
-                        <li>• We do not sell or share your personal data with third parties for marketing purposes without consent.</li>
-                        <li>• Data may be shared with government authorities, tax departments, and service providers strictly for fulfilling service obligations.</li>
-                        <li>• We use third-party vendors for payment processing and IT infrastructure under strict confidentiality agreements.</li>
+                        <li>â€¢ We do not sell or share your personal data with third parties for marketing purposes without consent.</li>
+                        <li>â€¢ Data may be shared with government authorities, tax departments, and service providers strictly for fulfilling service obligations.</li>
+                        <li>â€¢ We use third-party vendors for payment processing and IT infrastructure under strict confidentiality agreements.</li>
                       </ul>
                     </div>
                   </div>
@@ -199,3 +199,6 @@ export function PrivacyPolicyPage() {
     </div>
   );
 }
+
+
+

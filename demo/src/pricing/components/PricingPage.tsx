@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import PricingCard from './PricingCard';
 import { Home, TrendingUp, Globe, Briefcase, Users, Building2 } from 'lucide-react';
 import '../styles/pricing-tokens.css';
@@ -113,7 +113,7 @@ const professionalPlans = [
     badge: 'Great Deal',
     description: 'Tailored for freelancers, consultants, doctors, and professionals. Maximize deductions and file with confidence.',
     features: [
-      'Professional/consultation income up to ₹50L',
+      'Professional/consultation income up to â‚¹50L',
       'Presumptive taxation under 44ADA (50% expenses)',
       'Business expenses deduction strategies',
       'TDS on professional fees handling',
@@ -240,3 +240,6 @@ export default function PricingPage() {
     </div>
   );
 }
+
+
+
