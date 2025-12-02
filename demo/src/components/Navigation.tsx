@@ -123,7 +123,7 @@ export function Navigation() {
 
           {/* CENTER - Search Bar */}
           <div className="hidden lg:flex flex-1 justify-center px-4">
-            <form onSubmit={handleSearchSubmit} className="relative w-full max-w-lg">
+            <form onSubmit={handleSearchSubmit} className="relative w- max-w-lg">
               <input
                 aria-label="Search services"
                 value={query}
@@ -133,7 +133,7 @@ export function Navigation() {
                 className="w-full h-10 pl-10 pr-4 border rounded-full border-gray-300 bg-white shadow-sm focus:ring-2 focus:ring-[#6A23F5] focus:border-[#6A23F5] outline-none text-sm placeholder-gray-500"
               />
               <button aria-label="Search" type="submit">
-                <svg
+                {/* <svg
                   className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500"
                   width="20"
                   height="20"
@@ -143,7 +143,7 @@ export function Navigation() {
                 >
                   <circle cx="11" cy="11" r="7"></circle>
                   <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
+                </svg> */}
               </button>
             </form>
           </div>
